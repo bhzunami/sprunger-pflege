@@ -1,0 +1,129 @@
+# Site settings
+BaseURL = "http://nicolas.nicolasmauchle.ch/"
+languageCode = "de-CH"
+Title = "Sprunger-Pflege"
+theme = "freelancer"
+canonifyurls = true
+
+[params]
+    # You can use Markdown syntax for urls [text](//url.to/source) for
+    # most longer texts.
+
+    # To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+    name = "Sprunger-Pflege"
+    description = "Professionelle Pflege aus einer Hand"
+
+
+    [params.navigation]
+      brand = "Sprunger-Pflege"
+
+    [params.header]
+      # Copy your own image into './static/img/'' if you wish
+      image = "me2.jpg"
+      name = "Sprunger-Pflege"
+      subtitle = "Professionelle Pflege aus einer Hand"
+
+
+    [params.leitbild]
+        title = "Leitbild"
+        # The about text is splitted into a left and right column
+        left = "Die Ausübung und Einhaltung der Aspekte was unter einer „professionellen Pflege“ verstanden wird, dienen mir als wichtige Orientierungspunkte und Leitgedanken in meiner täglichen Arbeit in Zusammenarbeit mit den Klientinnen und Klienten und deren Angehörigen. Erst wenn Alltägliches wie essen und trinken, aufstehen, sich fortbewegen, sich wohlfühlen und vieles mehr nicht mehr gemeistert werden kann, merkt man, dass diese als selbstverständlich wahrgenommenen Fähigkeiten gar nicht banal und einfach sind. Hier setzt die professionelle Pflege ein."
+        right = "Erst wenn Alltägliches wie essen und trinken, aufstehen, sich fortbewegen, sich wohlfühlen und vieles mehr nicht mehr gemeistert werden kann, merkt man, dass diese als selbstverständlich wahrgenommenen Fähigkeiten gar nicht banal und einfach sind. Hier setzt die professionelle Pflege ein."
+
+        [params.leitbild.button]
+            text = "Download Prospekt"
+            link = "//nmauchle@gmail.com"
+            icon = "file-pdf-o"
+
+    [params.portrait]
+        title = "Portrait"
+        image = "me.jpg"
+
+        [[params.portrait.jobs]]
+          year = "1975"
+          job = "Ausbildung"
+          text =  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text "
+        [[params.portrait.jobs]]
+          year = "1975"
+          job = "Ausbildung"
+          text =  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text "
+        [[params.portrait.jobs]]
+          year = "1975"
+          job = "Ausbildung"
+          text =  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text "
+        [[params.portrait.jobs]]
+          year = "1975"
+          job = "Ausbildung"
+          text =  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text "
+
+    [params.angebot]
+        title = "Angebot"
+
+        [[params.angebot.dienstleistungen]]
+          title = "Pflegen"
+          desc = "Fachliche Beratung zu Fragen und Anliegen, die Pflege, Betreuung und Gesundheit betreffend, wie z.B. Wundbehandlung, Körperpflege, Ernährung, Ausscheidung, Umgang und Behandlung von Schmerzzuständen usw."
+
+        [[params.angebot.dienstleistungen]]
+          title = "Waschen"
+          desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+        [[params.angebot.dienstleistungen]]
+          title = "Betreuen"
+          desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+
+    [params.finanzierung]
+      title = "Finanzierung"
+      text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+
+      [[params.finanzierung.price]]
+        title = "Dies"
+        norm1 = 20
+        krank1 = 40.4
+        eigen = 20
+        kanton1 = 45.6
+        norm2 = 300
+        krank2 = 23.55
+        kanton2 = 22.56
+
+      [[params.finanzierung.price]]
+        title = "Das"
+        norm1 = 20
+        krank1 = 40.4
+        eigen = 20
+        kanton1 = 45.6
+        norm2 = 300
+        krank2 = 23.55
+        kanton2 = 22.56
+
+      [[params.finanzierung.price]]
+        title = "und Jenes"
+        norm1 = 20
+        krank1 = 40.4
+        eigen = 20
+        kanton1 = 45.6
+        norm2 = 300
+        krank2 = 23.55
+        kanton2 = 22.56
+
+    
+    [params.footer]
+      copyright = "Copyright by Nicolas Mauchle | Made with love and passion"
+
+      [params.footer.location]
+        title = "Kontakt"
+        # Postal address (add as many lines as necessary)
+        address = ["Nicole Sprunger", "In den Schorenmatten", "4053 Basel"]
+
+      [params.footer.social]
+        title = "Kontakt"
+        # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+        # for more icons. The icons are represented by their corresponding
+        # CSS class.
+        [[params.footer.social.networks]]
+          icon = "fa-envelope"
+          link = "mailto:nmauchle@gmail.com"
+
+      [params.footer.credits]
+        title = "Links"
+        text = "Hier könnte Ihre Werbung stehen"
