@@ -20,7 +20,7 @@ canonifyurls = true
 
     [params.header]
       # Copy your own image into './static/img/'' if you wish
-      image = "me2.jpg"
+      image = "nicolas_sprunger.jpg"
       name = "Sprunger-Pflege"
       subtitle = "Professionelle Pflege aus einer Hand"
 
