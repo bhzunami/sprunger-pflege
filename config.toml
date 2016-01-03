@@ -1,5 +1,5 @@
 # Site settings
-BaseURL = "http://nicolas.nicolasmauchle.ch/"
+BaseURL = "http://www.sprunger-pflege.ch/"
 languageCode = "de-CH"
 Title = "Sprunger-Pflege"
 theme = "freelancer"
@@ -12,7 +12,7 @@ canonifyurls = true
     # To provide some metadata for search engines feel free to add a few
     # information about you and your website.
     name = "Sprunger-Pflege"
-    description = "Professionelle Pflege aus einer Hand"
+    description = "Professionelle Pflege aus einer Hand, Pflegefachfrau, Spitex, Krankenschwester, Professionelle Pflege, Menschen, Alter, Pflegeheim, Betreuung, Gesundheit, Vorsorge, Pflege zuhause, ambulante Pflege, Spitex, freiberufliche Pflege zuhause, selbständige Pflegefachfrau, mobile Pflege, private Spitex, Pflegedienst zuhause, Pflegerische Leistung nach Verordnung, professionelle Pflege zuhause, Kassenpflichtige Leistungen nach KVG, individuelle Pflege"
 
 
     [params.navigation]
@@ -20,16 +20,12 @@ canonifyurls = true
 
     [params.header]
       # Copy your own image into './static/img/'' if you wish
-      image = "nicolas_sprunger.jpg"
       name = "Sprunger-Pflege"
       subtitle = "Professionelle Pflege aus einer Hand"
 
 
     [params.leitbild]
         title = "Leitbild"
-        # The about text is splitted into a left and right column
-        left = "Die Ausübung und Einhaltung der Aspekte was unter einer „professionellen Pflege“ verstanden wird, dienen mir als wichtige Orientierungspunkte und Leitgedanken in meiner täglichen Arbeit in Zusammenarbeit mit den Klientinnen und Klienten und deren Angehörigen. Erst wenn Alltägliches wie essen und trinken, aufstehen, sich fortbewegen, sich wohlfühlen und vieles mehr nicht mehr gemeistert werden kann, merkt man, dass diese als selbstverständlich wahrgenommenen Fähigkeiten gar nicht banal und einfach sind. Hier setzt die professionelle Pflege ein."
-        right = "Erst wenn Alltägliches wie essen und trinken, aufstehen, sich fortbewegen, sich wohlfühlen und vieles mehr nicht mehr gemeistert werden kann, merkt man, dass diese als selbstverständlich wahrgenommenen Fähigkeiten gar nicht banal und einfach sind. Hier setzt die professionelle Pflege ein."
 
         [params.leitbild.button]
             text = "Download Prospekt"
@@ -38,92 +34,111 @@ canonifyurls = true
 
     [params.portrait]
         title = "Portrait"
-        image = "me.jpg"
+        image = "nicole_sprunger.jpg"
+
+        introduction = "Ich bin 1962 in Basel geboren, wo ich die gesamte Schulzeit absolvierte und schliesslich auch die Ausbildung in allgemeiner Krankenpflege am Kantonsspital 1983 erfolgreich abgeschlossen habe."
+
+        work_experience_title = "Berufserfahrungen"
+        work_experience = "Ich bin seit meiner Grundausbildung in Pflege meist in Basel tätig. In den verschiedenen stationären und ambulanten Berufsumfeldern konnte ich durch die Anstellungen in verschiedenen Funktionen ein hohes Mass an Selbst-, Sozial-, Fach- und Methodenkompetenz aneignen."
 
         [[params.portrait.jobs]]
-          year = "1975"
-          job = "Ausbildung"
-          text =  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text "
+          year = "2011-2012"
+          text =  "Lehrgang Palliative Care, Palliative Care und Organisationsethik, Zürich"
         [[params.portrait.jobs]]
-          year = "1975"
-          job = "Ausbildung"
-          text =  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text "
+          year = "2006-2008"
+          text =  "NDK Vorgesetzten Seminar, (CAS in Leadership) am IAP Zürich (ZHAW), berufsbegleitend"
         [[params.portrait.jobs]]
-          year = "1975"
-          job = "Ausbildung"
-          text =  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text "
+          year = "2004"
+          text =  "Berufsbildnerinnenkurs, Amt für Berufsbildung und Berufsberatung, Basel"
         [[params.portrait.jobs]]
-          year = "1975"
-          job = "Ausbildung"
-          text =  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text "
+          year = "1995-1996"
+          text =  "Höhere Fachausbildung in Pflege Stufe 1 am Inselspital Bern mit Fähigkeitsausweis, berufsbegleitend"
+        [[params.portrait.jobs]]
+          year = "1980-1983"
+          text =  "Schule für Allgemeine Krankenpflege AKP am Kantonsspital Basel mit Diplomabschluss"
+        [[params.portrait.jobs]]
+          year = "1979-1980"
+          text =  "Vorpraktikum Merian-Iselin Spital in Basel, <br />Auslandaufenthalt, <br />Praktikum im Institut Médico-Pédagogique, “Mont des Oiseaux“ in Wissembourg, France"
+
+        [[params.portrait.jobs]]
+          text =  "div. andere Weiterbildungssequenzen"
+
 
     [params.angebot]
         title = "Angebot"
 
         [[params.angebot.dienstleistungen]]
-          title = "Pflegen"
-          desc = "Fachliche Beratung zu Fragen und Anliegen, die Pflege, Betreuung und Gesundheit betreffend, wie z.B. Wundbehandlung, Körperpflege, Ernährung, Ausscheidung, Umgang und Behandlung von Schmerzzuständen usw."
+          title = "Bedarfsabklärung und Beratung"
+          desc = "Abklärung des Pflegebedarfs und des Umfeldes. Fachliche Beratung zu Fragen und Anliegen, die Pflege, Betreuung und Gesundheit betreffend, wie z.B. Wundbehandlung, Körperpflege, Ernährung, Ausscheidung, Umgang und Behandlung von Schmerzzuständen usw. Beratung und Unterstützung bei der Organisation von ergänzenden Dienstleistungsangeboten. "
 
         [[params.angebot.dienstleistungen]]
-          title = "Waschen"
-          desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+          title = "Behandlungspflege"
+          desc = "Durchführung der Behandlungspflege nach ärztlicher Verordnung, wie z.B. Wundverbände anlegen, Medikamente verabreichen, Injektionen verabreichen, Vitalzeichen messen, Kompressionstrümpfe und – verbände anziehen und anlegen, Blutentnahmen kapillär und venös durchführen usw."
 
         [[params.angebot.dienstleistungen]]
-          title = "Betreuen"
-          desc = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+          title = "Grundpflege"
+          desc = "Anleitung und/oder Durchführung der Pflege im privaten Umfeld, wie z.B. Körperpflege, Bewegung und Mobilisation, Prophylaxen usw. <h3> & </h3><p>Pflege und Begleitung von schwerkranken und sterbenden Menschen, sowie Beratung und Unterstützung der Angehörigen.</p>"
 
     [params.finanzierung]
       title = "Finanzierung"
-      text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+      text = "Ab 1. Januar 2011 gelten die neuen Regeln der Pflegefinanzierung gemäss dem Bundesgesetz über die Krankenversicherung (KVG).<br /><br />Gemäss dem KVG werden pflegerische Leistungen nach Verordnung des Hausarztes/ der Hausärztin vom Krankenversicherer und die Restfinanzierung von der öffentlichen Hand übernommen.<br />Zusätzlich fällt ein Eigenbetrag von maximal CHF 8.00 pro Stunde/Tag an. Bei Leistungen unter einer Stunde wird der Eigenbetrag anteilsmässig erhoben.<br />Die Zeiteinheiten werden in 5 Minuten – Schritten abgerechnet."
+
+      title2 = "Rechnungsstellung"
+      text2 = "Die Kundenrechnung gibt detaillierte Auskunft über den Gesamtbetrag, den Anteil der Krankenversicherung, den Eigenbetrag und den Kantonsbeitrag. Die Rechnung wird im Abrechnugssystem „Tiers Payant“ gestellt. (Die Krankenkasse bezahlt und stellt den Versicherten die Kostenbeteiligung danach in Rechnung.) Die Rechnungsstellung erfolgt monatlich, die Zahlungsfrist beträgt jeweils 30 Tage.<br /><p>Selbstbehalt der Krankenkassenrechnung in der Regel 10%.</p>"
 
       [[params.finanzierung.price]]
-        title = "Dies"
-        norm1 = 20
-        krank1 = 40.4
-        eigen = 20
-        kanton1 = 45.6
-        norm2 = 300
-        krank2 = 23.55
-        kanton2 = 22.56
+        title = "Bedarfsabklärung (a)"
+        norm1 = "96.00"
+        norm2 = "80.00"
+        eigen = "8.00"
+        kvg = "79.80"
+        kanton1 = "8.20"
+        kanton2 = "0.20"
+
+        
+      [[params.finanzierung.price]]
+        title = "Behandlungspflege (b)"
+        norm1 = "90.00"
+        norm2 = "80.00"
+        eigen = "8.00"
+        kvg = "65.40"
+        kanton1 = "16.60"
+        kanton2 = "14.60"
 
       [[params.finanzierung.price]]
-        title = "Das"
-        norm1 = 20
-        krank1 = 40.4
-        eigen = 20
-        kanton1 = 45.6
-        norm2 = 300
-        krank2 = 23.55
-        kanton2 = 22.56
-
-      [[params.finanzierung.price]]
-        title = "und Jenes"
-        norm1 = 20
-        krank1 = 40.4
-        eigen = 20
-        kanton1 = 45.6
-        norm2 = 300
-        krank2 = 23.55
-        kanton2 = 22.56
+        title = "Grundpflege (c)"
+        norm1 = "80.00"
+        norm2 = "70.00"
+        eigen = "8.00"
+        kvg = "54.60"
+        kanton1 = "17.40"
+        kanton2 = "15.40"
 
     
     [params.footer]
-      copyright = "Copyright by Nicolas Mauchle | Made with love and passion"
+      copyright = "Copyright by Nicolas Mauchle"
 
       [params.footer.location]
         title = "Kontakt"
         # Postal address (add as many lines as necessary)
-        address = ["Nicole Sprunger", "In den Schorenmatten", "4053 Basel"]
+        address = ["Nicole Sprunger Bechtel", "Dipl. Pflegefachfrau HF", "Sprunger-Pflege", "In den Schorenmatten 23", "4058 Basel", "Tel. 079 769 35 61"]
 
       [params.footer.social]
-        title = "Kontakt"
+        title = "Mail"
         # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
         # for more icons. The icons are represented by their corresponding
         # CSS class.
         [[params.footer.social.networks]]
           icon = "fa-envelope"
-          link = "mailto:nmauchle@gmail.com"
+          link = "mailto:n.sprunger@vtxmail.ch"
 
       [params.footer.credits]
         title = "Links"
-        text = "Hier könnte Ihre Werbung stehen"
+
+        [[params.footer.credits.links]]
+          text = "Gesundheitsdepartement Basel-Stadt, Abteilung Langzeitpflege"
+          link = "http://www.langzeitpflege-bs.ch"
+
+        [[params.footer.credits.links]]
+          text = "Basler Ombudsstelle für Altersfragen und Spitex "
+          link = "http://www.ombudsstelle-alter.ch"
