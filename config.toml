@@ -1,5 +1,5 @@
 # Site settings
-BaseURL = "http://www.sprunger-pflege.ch/"
+BaseURL = "https://www.sprunger-pflege.ch/"
 languageCode = "de-CH"
 Title = "Sprunger-Pflege"
 theme = "freelancer"
@@ -134,6 +134,14 @@ canonifyurls = true
 
       [params.footer.credits]
         title = "Links"
+
+        [[params.footer.credits.links]]
+          text = "Palacare"
+          link = "http://www.palacare.ch"
+
+        [[params.footer.credits.links]]
+          text = "Deubelbeiss Pflegezuhause"
+          link = "https://www.deubelbeiss-pflegezuhause.ch/"
 
         [[params.footer.credits.links]]
           text = "Gesundheitsdepartement Basel-Stadt, Abteilung Langzeitpflege"
