@@ -145,7 +145,7 @@ canonifyurls = true
 
         [[params.footer.credits.links]]
           text = "Gesundheitsdepartement Basel-Stadt, Abteilung Langzeitpflege"
-          link = "http://www.langzeitpflege-bs.ch"
+          link = "http://www.gesundheitsversorgung.bs.ch/gesundheitsfachpersonen/langzeitpflege.html"
 
         [[params.footer.credits.links]]
           text = "Basler Ombudsstelle für Altersfragen und Spitex "
